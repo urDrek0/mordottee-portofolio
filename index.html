@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./src/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
+    <title>Portofolio Gormontee</title>
+</head>
+<body>
+    <nav>
+    </nav>
+    <main>
+        <nav class="w-full bg-sky-950 top-0 shadow-xl p-4 grid grid-cols-10 fixed w-screen pl-4 pr-4 font-bold rounded-br-xl rounded-bl-xl border-b-4 border-orange-500 z-50 place-self-start">
+            <h1 class=" text-orange-500 col-span-7 justify-center text-xl">Mordottee!</h1>
+            <a href="#about" class="text-orange-500 hover:text-red-600 justify-center text-xl">About</a>
+            <a href="#work" class="text-orange-500 hover:text-red-600 justify-center text-xl">Work</a>
+            <a href="#contact" class="text-orange-500 hover:text-red-600 justify-center text-xl">Contact</a>
+        </nav>
+        <section id="home" class="">
+            <img src="asset/background/home-background.png" alt="" class="w-screen h-screen">
+            <div class="absolute bg-gradient-to-b from-cyan-500/70 to-sky-950/50 text-left inset-0 flex flex-col items-center justify-center w-full h-full">
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="">
+                        <img src="" alt="" class="">
+                    </div>
+                    <div class="w-3/4 text-white">
+                        <h1 class="text-3xl p-2 text-shadow-lg">Hi! my name is</h1>
+                        <h1 class="text-8xl p-2 text-shadow-lg">Mordottee</h1>
+                        <h1 class="text-3xl p-2 text-shadow-lg">I do a lot of drawing, you can check my work below!</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="p-16 w-3/4 justify-center items-center place-self-center">
+            <h1 class="text-6xl p-3 text-center">About Me</h1>
+            <div class="grid grid-cols-2 gap-4 h-auto ustify-center items-center place-self-center">
+                <div class="">
+                    <p class="text-lg p-3 text-justify">Mordottee is a 20-year-old freelance digital artist and an active member of the Karis community. She enjoys exploring creativity through art and connecting with others who share the same passion, constantly growing and developing her own artistic style along the way.
+                        <br><br>Her work covers a variety of styles and forms, including expressive illustrations, imaginative concept art, spontaneous sketches, and charming chibi artwork. Each piece allows her to explore different ideas, characters, and moods while adding her own personal touch to every creation.</p>
+                </div>
+                <div class="">
+                    <img src="asset/persona/MPL CHARA CHIBI.png" alt="" class="rounded-xl max-w-100 place-item-start">
+                </div>
+            </div>
+        </section>
+        <section id="work" class="p-8 justify-center items-center place-self-center">
+            <h1 class="text-center text-6xl">My Work</h1>
+            <div class="grid grid-cols-5 gap-4 justify-center items-center place-self-center p-8">
+                <button id="all" class="text-gray-600 hover:text-black cursor-pointer" onclick="renderWork()">All</button>
+                <button id="sketches" class="text-gray-600 hover:text-black cursor-pointer" onclick="filterWork('sketches')">Sketch</button>
+                <button id="illustrations" class="text-gray-600 hover:text-black cursor-pointer" onclick="filterWork('illustrations')">Ilustrations</button>
+                <button id="chibi" class="text-gray-600 hover:text-black cursor-pointer" onclick="filterWork('chibi')">Chibi</button>
+                <button id="concept" class="text-gray-600 hover:text-black cursor-pointer" onclick="filterWork('concept')">Concept Arts</button>
+            </div>
+            <div id="showWork" class="columns-1 md:columns-3 lg:columns-5 gap-4 w-9/10 place-self-center">
+                
+            </div>
+        </section>
+        <section id="contact" class="p-8 w-full ">
+            <h1 class="text-center text-5xl">Contact</h1>
+            <div class="grid grid-cols-4 gap-4 justify-center items-center p-8 place-self-center">
+                <a href="" class="" target="_blank"><img src="asset/logo/logo-twitter.png" alt="" class="p-5 max-w-25"></a>
+                <a href="" class="" target="_blank"><img src="asset/logo/logo-tiktok.png" alt="" class="p-5 max-w-25"></a>
+                <a href="" class="" target="_blank"><img src="asset/logo/logo-ig.png" alt="" class="p-5 max-w-25"></a>
+                <a href="" class="" target="_blank"><img src="asset/logo/logo-vgen.png" alt="" class="p-5 max-w-25"></a>
+            </div>
+            <h4 class="text-center text-gray-600">Copyright © 2026 Mordottee. All rights reserved.</h4>
+        </section>
+    </main>
+</body>
+    <script>
+        function fetchData(){
+            var dataWorkPromise = fetch("./src/data.json").then((response) => response.json())
+            return dataWorkPromise
+        }
+        async function returnWorkPromise() {
+            var dataWork = await fetchData()
+            return dataWork
+        }
+        async function renderWork() {
+            var loadData = await returnWorkPromise()
+            const target = document.getElementById("showWork")
+            target.innerHTML = loadData.map((work) =>`
+            <button id="${work.id}" class="block w-full cursor-pointer break-inside-avoid mb-4" onclick="showDetail('${work.id}')">
+                <img src="${work["img-url"]}" id="" class="w-full h-auto rounded-2xl">
+            </button>
+            `
+            ).join("")
+        }
+        renderWork()
+
+        async function filterWork(workCategory) {
+            var getFilter = await returnWorkPromise()
+            var filtered = getFilter.filter(
+                (work) => work.categori === workCategory
+            )
+            console.log(filtered)
+            const target = document.getElementById("showWork")
+            target.innerHTML = filtered.map((work) =>`
+                <button id="${work.id}" class="block w-full cursor-pointer break-inside-avoid mb-4 place-self-center" onclick="showDetail('${work.id}')">
+                    <img src="${work["img-url"]}" id="" class="w-full h-auto rounded-2xl">
+                </button>
+            `
+            ).join("")
+        }
+    </script>
+</html>
+

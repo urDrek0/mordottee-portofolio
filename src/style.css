@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+body{
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  background-color: rgb(255, 255, 250);
+}
