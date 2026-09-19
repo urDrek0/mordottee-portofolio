@@ -1,187 +1,261 @@
 [
-	{
-		"id": "ibe-buka-mulut-1",
-		"categori": "chibi",
-		"img-url": "asset/works/chibi/Reactive images/Ibe_buka_mulut-1.png"
-	},
-	{
-		"id": "ibe-tutup-mulut-1",
-		"categori": "chibi",
-		"img-url": "asset/works/chibi/Reactive images/Ibe_tutup_mulut-1.png"
-	},
-	{
-		"id": "karis-1",
-		"categori": "chibi",
-		"img-url": "asset/works/chibi/Stiker/karis 1.png"
-	},
-	{
-		"id": "karis-2",
-		"categori": "chibi",
-		"img-url": "asset/works/chibi/Stiker/karis 2.png"
-	},
-	{
-		"id": "karis-3",
-		"categori": "chibi",
-		"img-url": "asset/works/chibi/Stiker/karis 3.png"
-	},
-	{
-		"id": "karis-5",
-		"categori": "chibi",
-		"img-url": "asset/works/chibi/Stiker/karis 5.png"
-	},
-	{
-		"id": "hasil",
-		"categori": "chibi",
-		"img-url": "asset/works/chibi/hasil.png"
-	},
-	{
-		"id": "hasil-1",
-		"categori": "chibi",
-		"img-url": "asset/works/chibi/Hasil(1).png"
-	},
-	{
-		"id": "qaseh-chibi",
-		"categori": "chibi",
-		"img-url": "asset/works/chibi/Qaseh chibi.png"
-	},
-	{
-		"id": "sasajima-chibi",
-		"categori": "chibi",
-		"img-url": "asset/works/chibi/Sasajima chibi.png"
-	},
-	{
-		"id": "staypatrick",
-		"categori": "chibi",
-		"img-url": "asset/works/chibi/staypatrick.png"
-	},
-	{
-		"id": "batu-copy",
-		"categori": "concept",
-		"img-url": "asset/works/concept/Texture Art/Batu - Copy.png"
-	},
-	{
-		"id": "blue-cloth",
-		"categori": "concept",
-		"img-url": "asset/works/concept/Texture Art/Blue Cloth.png"
-	},
-	{
-		"id": "blue-roof-texture-2",
-		"categori": "concept",
-		"img-url": "asset/works/concept/Texture Art/Blue roof texture 2.png"
-	},
-	{
-		"id": "green-roof",
-		"categori": "concept",
-		"img-url": "asset/works/concept/Texture Art/Green Roof.png"
-	},
-	{
-		"id": "wood-3d-texture",
-		"categori": "concept",
-		"img-url": "asset/works/concept/Texture Art/Wood 3d Texture.png"
-	},
-	{
-		"id": "wood-texture",
-		"categori": "concept",
-		"img-url": "asset/works/concept/Texture Art/WOOD Texture.png"
-	},
-	{
-		"id": "layout-alun-alun-pamulang",
-		"categori": "concept",
-		"img-url": "asset/works/concept/2D layout ALUN ALUN PAMULANG 8.png"
-	},
-	{
-		"id": "background-rumput",
-		"categori": "concept",
-		"img-url": "asset/works/concept/Background Rumput PT 6 ( FINAL ) Back UP (1).jpg"
-	},
-	{
-		"id": "concept-art",
-		"categori": "concept",
-		"img-url": "asset/works/concept/Concept art.png"
-	},
-	{
-		"id": "chibi-3",
-		"categori": "illustrations",
-		"img-url": "asset/works/illustrations/CHIBI 3.png"
-	},
-	{
-		"id": "hasiill",
-		"categori": "illustrations",
-		"img-url": "asset/works/illustrations/Hasiill.png"
-	},
-	{
-		"id": "illust-1",
-		"categori": "illustrations",
-		"img-url": "asset/works/illustrations/Illust 1.png"
-	},
-	{
-		"id": "kipas-karis",
-		"categori": "illustrations",
-		"img-url": "asset/works/illustrations/Kipas Karis.png"
-	},
-	{
-		"id": "mpl-chara-chibi-render-1",
-		"categori": "illustrations",
-		"img-url": "asset/works/illustrations/MPL CHARA CHIBI render 1.png"
-	},
-	{
-		"id": "oki",
-		"categori": "illustrations",
-		"img-url": "asset/works/illustrations/oki.png"
-	},
-	{
-		"id": "okiii",
-		"categori": "illustrations",
-		"img-url": "asset/works/illustrations/OKIII.png"
-	},
-	{
-		"id": "anatomi-test",
-		"categori": "sketches",
-		"img-url": "asset/works/sketches/Anatomi test.png"
-	},
-	{
-		"id": "anatomi",
-		"categori": "sketches",
-		"img-url": "asset/works/sketches/Anatomi.png"
-	},
-	{
-		"id": "anatomi-1",
-		"categori": "sketches",
-		"img-url": "asset/works/sketches/Anatomi(1).png"
-	},
-	{
-		"id": "bram",
-		"categori": "sketches",
-		"img-url": "asset/works/sketches/Bram.png"
-	},
-	{
-		"id": "jemia-2",
-		"categori": "sketches",
-		"img-url": "asset/works/sketches/jemia 2.png"
-	},
-	{
-		"id": "joni",
-		"categori": "sketches",
-		"img-url": "asset/works/sketches/JONIIIIIIIIIIIIIIIIIII.png"
-	},
-	{
-		"id": "mpl-chara-chibi",
-		"categori": "sketches",
-		"img-url": "asset/works/sketches/MPL CHARA CHIBI.png"
-	},
-	{
-		"id": "singa-2",
-		"categori": "sketches",
-		"img-url": "asset/works/sketches/singa 2.png"
-	},
-	{
-		"id": "sketchh",
-		"categori": "sketches",
-		"img-url": "asset/works/sketches/sketchh.png"
-	},
-	{
-		"id": "yami-2",
-		"categori": "sketches",
-		"img-url": "asset/works/sketches/yami 2.png"
-	}
+  {
+    "id": "ibe-buka-mulut-1",
+    "title": "Ibe — Open Mouth",
+    "categori": "chibi",
+    "img_url": "asset/works/chibi/Reactive images/Ibe_buka_mulut-1.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "ibe-tutup-mulut-1",
+    "title": "Ibe — Closed Mouth",
+    "categori": "chibi",
+    "img_url": "asset/works/chibi/Reactive images/Ibe_tutup_mulut-1.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "karis-1",
+    "title": "Karis — Sticker 01",
+    "categori": "chibi",
+    "img_url": "asset/works/chibi/Stiker/karis 1.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "karis-2",
+    "title": "Karis — Sticker 02",
+    "categori": "chibi",
+    "img_url": "asset/works/chibi/Stiker/karis 2.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "karis-3",
+    "title": "Karis — Sticker 03",
+    "categori": "chibi",
+    "img_url": "asset/works/chibi/Stiker/karis 3.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "karis-5",
+    "title": "Karis — Sticker 05",
+    "categori": "chibi",
+    "img_url": "asset/works/chibi/Stiker/karis 5.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "hasil",
+    "title": "Chibi Character",
+    "categori": "chibi",
+    "img_url": "asset/works/chibi/hasil.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "hasil-1",
+    "title": "Chibi Character 02",
+    "categori": "chibi",
+    "img_url": "asset/works/chibi/Hasil(1).png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "qaseh-chibi",
+    "title": "Qaseh — Chibi",
+    "categori": "chibi",
+    "img_url": "asset/works/chibi/Qaseh chibi.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "sasajima-chibi",
+    "title": "Sasajima — Chibi",
+    "categori": "chibi",
+    "img_url": "asset/works/chibi/Sasajima chibi.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "staypatrick",
+    "title": "Staypatrick — Chibi",
+    "categori": "chibi",
+    "img_url": "asset/works/chibi/staypatrick.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "batu-copy",
+    "title": "Stone Texture",
+    "categori": "concept",
+    "img_url": "asset/works/concept/Texture Art/Batu - Copy.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "blue-cloth",
+    "title": "Blue Cloth Texture",
+    "categori": "concept",
+    "img_url": "asset/works/concept/Texture Art/Blue Cloth.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "blue-roof-texture-2",
+    "title": "Blue Roof Texture",
+    "categori": "concept",
+    "img_url": "asset/works/concept/Texture Art/Blue roof texture 2.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "green-roof",
+    "title": "Green Roof Texture",
+    "categori": "concept",
+    "img_url": "asset/works/concept/Texture Art/Green Roof.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "wood-3d-texture",
+    "title": "3D Wood Texture",
+    "categori": "concept",
+    "img_url": "asset/works/concept/Texture Art/Wood 3d Texture.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "wood-texture",
+    "title": "Wood Texture",
+    "categori": "concept",
+    "img_url": "asset/works/concept/Texture Art/WOOD Texture.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "layout-alun-alun-pamulang",
+    "title": "Alun-Alun Pamulang — 2D Layout",
+    "categori": "concept",
+    "img_url": "asset/works/concept/2D layout ALUN ALUN PAMULANG 8.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "background-rumput",
+    "title": "Grass Background",
+    "categori": "concept",
+    "img_url": "asset/works/concept/Background Rumput PT 6 ( FINAL ) Back UP (1).jpg",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "concept-art",
+    "title": "Concept Art",
+    "categori": "concept",
+    "img_url": "asset/works/concept/Concept art.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "chibi-3",
+    "title": "Chibi Illustration",
+    "categori": "illustrations",
+    "img_url": "asset/works/illustrations/CHIBI 3.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "hasiill",
+    "title": "Character Illustration",
+    "categori": "illustrations",
+    "img_url": "asset/works/illustrations/Hasiill.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "illust-1",
+    "title": "Character Illustration 01",
+    "categori": "illustrations",
+    "img_url": "asset/works/illustrations/Illust 1.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "kipas-karis",
+    "title": "Karis — Fan Illustration",
+    "categori": "illustrations",
+    "img_url": "asset/works/illustrations/Kipas Karis.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "mpl-chara-chibi-render-1",
+    "title": "MPL Character — Chibi Render",
+    "categori": "illustrations",
+    "img_url": "asset/works/illustrations/MPL CHARA CHIBI render 1.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "oki",
+    "title": "Oki — Character Illustration",
+    "categori": "illustrations",
+    "img_url": "asset/works/illustrations/oki.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "okiii",
+    "title": "Oki — Character Illustration 02",
+    "categori": "illustrations",
+    "img_url": "asset/works/illustrations/OKIII.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "anatomi-test",
+    "title": "Anatomy Study",
+    "categori": "sketches",
+    "img_url": "asset/works/sketches/Anatomi test.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "anatomi",
+    "title": "Anatomy Study 01",
+    "categori": "sketches",
+    "img_url": "asset/works/sketches/Anatomi.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "anatomi-1",
+    "title": "Anatomy Study 02",
+    "categori": "sketches",
+    "img_url": "asset/works/sketches/Anatomi(1).png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "bram",
+    "title": "Bram — Character Sketch",
+    "categori": "sketches",
+    "img_url": "asset/works/sketches/Bram.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "jemia-2",
+    "title": "Jemia — Character Sketch",
+    "categori": "sketches",
+    "img_url": "asset/works/sketches/jemia 2.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "joni",
+    "title": "Joni — Character Sketch",
+    "categori": "sketches",
+    "img_url": "asset/works/sketches/JONIIIIIIIIIIIIIIIIIII.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "mpl-chara-chibi",
+    "title": "MPL Character — Chibi Sketch",
+    "categori": "sketches",
+    "img_url": "asset/works/sketches/MPL CHARA CHIBI.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "singa-2",
+    "title": "Lion Sketch",
+    "categori": "sketches",
+    "img_url": "asset/works/sketches/singa 2.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "sketchh",
+    "title": "Character Sketch",
+    "categori": "sketches",
+    "img_url": "asset/works/sketches/sketchh.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  },
+  {
+    "id": "yami-2",
+    "title": "Yami — Character Sketch",
+    "categori": "sketches",
+    "img_url": "asset/works/sketches/yami 2.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt corrupti quibusdam minus harum laudantium molestias, accusamus atque quam, temporibus non ipsam aperiam in nesciunt cumque ab quod incidunt praesentium?"
+  }
 ]

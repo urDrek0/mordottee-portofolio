@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="./src/output.css">
     <link rel="stylesheet" href="./src/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="asset/works/illustrations/Kipas Karis.png">
     <title>Portofolio Gormontee</title>
 </head>
 <body>
@@ -32,16 +33,12 @@
                 </div>
             </div>
         </section>
-        <section id="about" class="p-16 w-3/4 justify-center items-center place-self-center">
+        <section id="about" class="p-16 w-4/5 justify-center items-center place-self-center">
             <h1 class="text-6xl p-3 text-center">About Me</h1>
-            <div class="grid grid-cols-2 gap-4 h-auto ustify-center items-center place-self-center">
-                <div class="">
-                    <p class="text-lg p-3 text-justify">Mordottee is a 20-year-old freelance digital artist and an active member of the Karis community. She enjoys exploring creativity through art and connecting with others who share the same passion, constantly growing and developing her own artistic style along the way.
+            <div class="grid grid-cols-3 gap-4 h-auto ustify-center items-center place-self-center">
+                <img src="asset/persona/MPL CHARA CHIBI.png" alt="" class="order-2 rounded-xl max-w-90 place-item-start">
+                    <p class="col-span-2 order-1 text-lg p-3 text-justify">Mordottee is a 20-year-old freelance digital artist and an active member of the Karis community. She enjoys exploring creativity through art and connecting with others who share the same passion, constantly growing and developing her own artistic style along the way.
                         <br><br>Her work covers a variety of styles and forms, including expressive illustrations, imaginative concept art, spontaneous sketches, and charming chibi artwork. Each piece allows her to explore different ideas, characters, and moods while adding her own personal touch to every creation.</p>
-                </div>
-                <div class="">
-                    <img src="asset/persona/MPL CHARA CHIBI.png" alt="" class="rounded-xl max-w-100 place-item-start">
-                </div>
             </div>
         </section>
         <section id="work" class="p-8 justify-center items-center place-self-center">
@@ -53,7 +50,7 @@
                 <button id="chibi" class="text-gray-600 hover:text-black cursor-pointer" onclick="filterWork('chibi')">Chibi</button>
                 <button id="concept" class="text-gray-600 hover:text-black cursor-pointer" onclick="filterWork('concept')">Concept Arts</button>
             </div>
-            <div id="showWork" class="columns-1 md:columns-3 lg:columns-5 gap-4 w-9/10 place-self-center">
+            <div id="showWork" class="grid grid-cols-5 gap-4 w-9/10 place-self-center">
                 
             </div>
         </section>
@@ -82,9 +79,11 @@
             var loadData = await returnWorkPromise()
             const target = document.getElementById("showWork")
             target.innerHTML = loadData.map((work) =>`
-            <button id="${work.id}" class="block w-full cursor-pointer break-inside-avoid mb-4" onclick="showDetail('${work.id}')">
-                <img src="${work["img-url"]}" id="" class="w-full h-auto rounded-2xl">
-            </button>
+            <div class="" id="${work.id}-detail">
+                <button id="${work.id}" alt="closed" class="block w-full cursor-pointer mb-4" onclick="showDetail('${work.id}')">
+                <img src="${work.img_url}" id="" class="w-full max-h-75 rounded-2xl object-contain">
+                </button>
+            </div>
             `
             ).join("")
         }
@@ -92,18 +91,50 @@
 
         async function filterWork(workCategory) {
             var getFilter = await returnWorkPromise()
-            var filtered = getFilter.filter(
-                (work) => work.categori === workCategory
-            )
-            console.log(filtered)
+            var filtered = getFilter.filter((work) => work.categori === workCategory)
             const target = document.getElementById("showWork")
             target.innerHTML = filtered.map((work) =>`
-                <button id="${work.id}" class="block w-full cursor-pointer break-inside-avoid mb-4 place-self-center" onclick="showDetail('${work.id}')">
-                    <img src="${work["img-url"]}" id="" class="w-full h-auto rounded-2xl">
-                </button>
+                 <div class="" id="${work.id}-detail">
+                    <button id="${work.id}" alt="closed" class="block w-full cursor-pointer mb-4" onclick="showDetail('${work.id}')">
+                    <img src="${work.img_url}" id="" class="w-full max-h-75 rounded-2xl object-contain">
+                    </button>
+                </div>
             `
             ).join("")
         }
+        async function showDetail(workId){
+            var getId = await returnWorkPromise()
+            var filtered = getId.find((getid) => getid.id === workId)
+            const target = document.getElementById(`${workId}-detail`)
+            target.classList.add("col-span-3")
+            target.innerHTML = `
+                <div id="${filtered.id}" class="p-8">
+                    <div id="" class="grid grid-cols-2 gap-10 border-1 border-black rounded-xl">
+                        <img src="${filtered.img_url}" alt="" class="place-self-center max-w-75 max-h-75 ml-5">
+                        <div id="" class="p-3">
+                            <button class="" onclick="closeDetail('${filtered.id}')" id=""><img id="" src="asset/icon/close-button.png" class="w-8 place-self-end cursor-pointer" alt="">
+                            <h1 class="text-black text-2xl text-left pb-3">${filtered.title}</h1>
+                            <h1 class="text-gray-700 text-lg text-left pb-3">Category : ${filtered.categori}</h1>
+                            <h1 class="text-gray-700 text-sm text-left italic">${filtered.desc}</h1>
+                        </div>
+                    </div>
+                </div>`
+        }
+
+        async function closeDetail(workId) {
+            var getId = await returnWorkPromise()
+            var filtered = getId.find((getid) => getid.id === workId)
+            const target = document.getElementById(`${workId}-detail`)
+            target.classList.remove("col-span-3")
+            target.innerHTML = `
+                 <div class="" id="${filtered.id}-detail">
+                    <button id="${filtered.id}" alt="closed" class="block w-full cursor-pointer mb-4" onclick="showDetail('${filtered.id}')">
+                    <img src="${filtered.img_url}" id="" class="w-full max-h-75 rounded-2xl object-contain">
+                    </button>
+                </div>
+            `
+        }
+
     </script>
 </html>
 
